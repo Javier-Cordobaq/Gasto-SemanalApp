@@ -1,0 +1,53 @@
+.contenedor-days {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    color: #0D1F2D;
+}
+
+.day-cont {
+    padding-top: 1rem;
+    text-align: center;
+    border-right: 2px solid white;
+    width: 100%;
+    background-color: #9EA3B0;
+}
+
+.gasto-realizados  {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #155724;
+  }
+  
+  .gasto-realizados li{
+    list-style: none;
+    margin-bottom: 0rem;
+    border-bottom: 1px solid #9EA3B0;
+    padding: 1rem 1rem;
+  }
+  .gasto-realizados li:last-of-type {
+    margin-bottom: 0!important;
+  }
+  .gasto-realizados li p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+  }
+  .gasto-realizados li p .gasto {
+    border-radius: 10px;
+    background-color: #004085;
+    padding: 0.5rem;
+    color:white;
+  }
+  
+  .gasto-realizados .columnas {
+    display: flex;
+    justify-content: space-between;
+    color:#004e92;
+    padding: 1rem 13rem 1rem 1rem;
+    border-bottom: 1px solid #9EA3B0;
+  }

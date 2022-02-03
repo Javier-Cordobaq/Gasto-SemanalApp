@@ -1,0 +1,77 @@
+.form-1 {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 55px;
+    background: #9EA3B0;
+    box-shadow:  5px 5px 13px #676a72,
+             -5px -5px 13px #d5dcee;
+}
+
+.form-1 p {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.input-cont{
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
+    outline: none;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.btn-agregar {
+    transition: transform 0.8s;
+    width: 90%;
+    border: none;
+    border-radius: 55px;
+    padding: 1rem;
+    border: none;
+    margin-bottom: 1.5rem;
+    border-radius: 55px;
+    background: #9EA3B0;
+    box-shadow:  5px 5px 13px #676a72,
+                 -5px -5px 13px #d5dcee;
+
+}
+
+.btn-agregar:hover{
+    transform: scale(0.9);
+}
+
+.cont-s {
+    margin-left: 2rem;
+}
+
+.select {
+    width: 100%;
+}
+
+.cont-inputs {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.cantday {
+    width: 90%;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
